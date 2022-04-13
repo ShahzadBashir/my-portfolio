@@ -9,6 +9,10 @@ h1,p,h3,h2,h4{
     margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 header nav{
     height: 50px;
     background-color: #ffffff;
@@ -100,33 +104,77 @@ header nav ul li a{
 }
 
 .post-item h3{
-    font-weight: 500;
     font-style: normal;
-    font-size: 30px;
-    line-height: 44px;
-    color: #21243d;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 38px;
+    color: #21243D;
 }
 
-.post-item .published-date{
+.post-item div{
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #21243d;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    margin-top: 17px;
+    margin-bottom: 11px;
 }
-.post-item .category{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 29px;
-    color: #8695A4;
-}
+
 .post-item p{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #21243d;
-    padding-bottom: 40px;
-    border-bottom: 1px solid #e0e0e0;
+    color: #21243D;
+}
+
+.posts-section{
+    background-color: #EDF7FA;
+    padding: 32px 0;
+}
+
+.posts-section .posts-inner{
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.posts-section .posts-inner .posts-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.posts-section .posts-inner .posts-header div{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+
+.posts-section .posts-inner .posts-header a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: right;
+    color: #00A8CC;
+}
+
+.posts-section .posts-inner .posts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    gap: 20px;
+}
+
+.post-item{
+    padding: 24px;
+    border-radius: 4px;
+    background-color: #FFFFFF;
 }
